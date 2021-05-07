@@ -1,0 +1,23 @@
+git --version
+git init
+git status
+git add <file names>
+git add .
+git commit -m "you own comments"
+git remote add origin "git@github.com:UmeshModi84/Test_Repo.git"
+git remote add origin "https://github.com/UmeshModi84/Test_Repo.git"
+git pull origin master
+git push origin master
+git clone "git@github.com:UmeshModi84/Test_Repo.git"
+git clone "https://github.com/UmeshModi84/Test_Repo.git"
+git branch
+git branch <BranchName>
+git branch -D <BranchName>
+git checkout <BranchName>
+git log
+git stash
+git stash pop
+git revert
+git diff 
+git config --global user.name "UmeshModi"
+git config --global user.email Umesh.modi84@gmail.com
